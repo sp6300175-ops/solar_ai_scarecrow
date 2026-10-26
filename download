@@ -1,0 +1,15 @@
+# Arduino / build output
+build/
+*.elf
+*.bin
+*.map
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Edge Impulse export (add your own model locally; keep it out of the repo if it is large or private)
+*_inferencing/
+*.zip
